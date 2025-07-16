@@ -4,9 +4,9 @@ import { BsCoin } from "react-icons/bs";
 const Navbar = () => {
     return (
         <div>
-            <div className='flex justify-between items-center max-w-[1320px] mx-auto'>
-                <img src={logo} alt="" />
-                <ul className='flex items-center gap-[40px] text-[#131313B3]'>
+            <div className='lg:flex justify-between items-center max-w-[1320px] mx-auto mb-5 lg:mb-0'>
+                <img className='mx-auto lg:mx-0' src={logo} alt="" />
+                <ul className='lg:flex items-center gap-[40px] text-[#131313B3] text-center'>
                     <li>Home</li>
                     <li>Fixture</li>
                     <li className='relative group'>Teams
@@ -20,7 +20,7 @@ const Navbar = () => {
 
                     </li>
                     <li>Schedules</li>
-                    <li className='flex items-center gap-4 border-2 border-[#1313131A] rounded-xl px-6 py-4'> <span className='font-semibold'>Coin</span> <button className='text-xl text-[#F39E09] '><BsCoin/></button> </li>
+                    <li className='flex items-center gap-4 border-2 border-[#1313131A] rounded-xl px-3 py-2 lg:px-6 lg:py-4 w-fit mx-auto'> <span className='font-semibold'>Coin</span> <button className='text-xl text-[#F39E09] '><BsCoin/></button> </li>
                    
                 </ul>
             </div>
